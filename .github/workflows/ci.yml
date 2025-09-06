@@ -1,0 +1,16 @@
+name: CI
+on:
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain echo (non-failing)
+        run: |
+          node -v || true
+          npm -v || true
+          pnpm -v || true
+          rustc -V || true
+          cargo -V || true
+          php -v || true
