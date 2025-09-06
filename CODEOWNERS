@@ -1,0 +1,14 @@
+# Global default owner
+*                                 @bogdaniel
+
+# Guardrails & governance
+/.cursorrules                     @bogdaniel
+/.github/                         @bogdaniel
+/docs/                            @bogdaniel
+
+# (Optional) tighten ownership by area as repos evolve:
+# /src/domain/                    @bogdaniel
+# /src/application/               @bogdaniel
+# /src/interfaces/                @bogdaniel
+# /infra/                         @bogdaniel
+
